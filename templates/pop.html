@@ -1,0 +1,16 @@
+
+
+<div class="" style="position:absolute; left:0px; top:0px; width:100%; height:100%; right:0px; bottom:0px; background-color:rgba(0,0,0,0.5)">
+	
+	<div>pop</div>
+
+	<button ng-click="closePop()">closePop</button>
+
+
+	<ion-checkbox ng-repeat="item in devList"
+                      ng-model="item.checked" 
+                      ng-checked="item.checked">
+          {{ item.text }}
+        </ion-checkbox>
+
+</div>
